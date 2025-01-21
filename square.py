@@ -1,7 +1,45 @@
 import turtle
 screen = turtle.Screen()
 var = turtle.Turtle()
-for i in range(4):  
-    var.forward(100)
-    var.right(90)
+# for i in range(4): 
+#     var.forward(100)
+#     var.right(90)
+# screen.exitonclick()
+# var.up()
+# var.goto(170,152)
+# var.down()
+# var.begin_fill()
+# var.color("yellow")
+# var.forward(100)
+# var.right(-90)
+# var.forward(100)
+# var.right(-135)
+# var.forward(150)
+# var.end_fill()
+# screen.exitonclick()
+# space= 0
+# var.speed(100)
+# var.color("orange")
+# var.shape("circle")
+# for i in range(1000):
+#     var.forward(space)
+#     var.right(90)
+#     space+=i/30
+
+# screen.exitonclick()
+var.forward(182)
+var.right(135)
+var.forward(130)
+var.right(90)
+var.forward(133)
+var.penup()
+var.goto(0,-70)
+var.pendown()
+var.right(135)
+var.forward(182)
+var.left(135)
+var.forward(130)
+var.left(90)
+var.forward(133)
+
 screen.exitonclick()
